@@ -4,7 +4,8 @@
   <method_code><![CDATA[
     string hindiMarks = this.getProperty("mark_hindi","");
    // int Hindi = Int16.Parse(hindiMarks);
-      int stat = Int16.Parse(statMarks);
+   
+   int gap = Int16.Parse(gapMarks);
   
 
     string englishMarks = this.getProperty("mark_english","");
